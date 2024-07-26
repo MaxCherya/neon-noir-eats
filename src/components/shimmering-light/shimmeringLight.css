@@ -1,0 +1,18 @@
+.shimmering-light {
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    box-shadow: 0 0 500px 50px rgba(0, 123, 255, 0.5);
+    transition: top 3s ease, left 3s ease;
+    animation: opacityLights 3s alternate infinite;
+    z-index: 0;
+}
+
+@keyframes opacityLights {
+    from {
+        box-shadow: 0 0 500px 50px rgba(0, 123, 255, 0.5);
+      }
+      to {
+        box-shadow: 0 0 100px 10px rgba(0, 123, 255, 0.7); /* Adjust shimmer effect */
+      }
+}

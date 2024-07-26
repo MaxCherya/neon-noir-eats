@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.active p{
+    color: white;
+    background-color: rgb(43, 43, 43);
+    border-radius: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-maintext-container {
+    color: #686868;
+    transition: all ease-in-out 0.2s;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-maintext-container p {
+    width: 5rem;
+}
+
+.navbar-maintext-container li a:not(.active):hover {
+    color: white;
+}
+
+.navbar-container {
+    width: 100svw;
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#main-logo-navbar {
+    width: 3.5rem;
+    height: auto;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+#main-logo-navbar:hover {
+    border: 1px solid white;
+}
+
+.navbar-list-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart-logo-navbar {
+    font-size: 1.5rem;
+    color: #686868;
+    transition: all ease-in-out 0.2s;
+}
+
+#cart-logo-navbar1 {
+    font-size: 1.5rem;
+    color: #007FFF;
+    filter: drop-shadow(0 0px 3px #007FFF);
+    animation: swingle infinite ease-in-out 3s;
+    transition: all ease-in-out 0.2s;
+}
+
+#cart-logo-navbar1-mobile {
+    color: #007FFF;
+    filter: drop-shadow(0 0px 3px #007FFF);
+    animation: swingle infinite ease-in-out 3s;
+}
+
+@keyframes swingle{
+    0% {
+        rotate: -45deg;
+    }
+    50% {
+        rotate: 45deg;
+    }
+    100% {
+        rotate: -45deg;
+    }
+}
+
+#cart-logo-navbar:hover {
+    color: white;
+}
+
+#cart-logo-navbar1:hover {
+    color: white;
+}
+
+#navbar-wall {
+    color: #686868;
+    font-size: 3.2rem;
+}
+
+#navbar-logo-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-container-mobile {
+    display: none;
+    z-index: 1000;
+}
+
+@media (max-width:865px) {
+    .navbar-container {
+        display: none;
+    }
+
+    .navbar-container-mobile {
+        position: fixed;
+        bottom: 0;
+        display: block;
+        width: 100svw;
+        height: auto;
+        background-color: black;
+        overflow: hidden;
+        color: aqua;
+        z-index: 1000;
+    }
+
+    .navbar-list-container-mobile {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-list-container-mobile li {
+        color: #686868;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .active {
+        color: white;
+        font-size: 2rem;
+    }
+
+}

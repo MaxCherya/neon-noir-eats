@@ -1,0 +1,43 @@
+"Neon Noir Eats"
+
+
+
+Background:
+Classic Noir: #000000 (This is pure black)
+Midnight Blue: #191970 (This is a deep, rich blue)
+Charcoal Gray: #333333 or another #686868 or #1b1b1b or #aeadad;(This is a dark gray with a hint of lightness)
+
+Neon Accents (Limited Palette):
+Electric Blue: #007FFF
+Hot Pink: #FF00F7
+Magenta: #FF00FF
+Teal: #008080
+Purple: #800080
+
+
+
+Fonts:
+
+Main Font (Body Text):
+Sans-Serif with a Modern Feel:
+Inter (https://fonts.google.com/specimen/Inter) is a clean and legible sans-serif font with a slightly geometric touch.
+Open Sans (https://fonts.google.com/specimen/Open+Sans) is another great option with a neutral style that won't overpower the visual elements.
+Classic Monospace (Optional):
+Fira Mono (https://fonts.google.com/specimen/Fira+Mono) offers a unique, typewriter-inspired look that can add a touch of retro charm. However, limit its use for short text snippets or code elements due to readability concerns.
+Heading Font (Titles, Section Headers):
+
+Display Font with Neon Flair:
+Miami Vice (https://fonts.google.com/) perfectly captures the synthwave vibe with its bold, 80s-inspired design. Use sparingly for maximum impact.
+Rad Retro (https://www.1001fonts.com/google-web+retro-fonts.html) is another option with a chunky, retro feel.
+Sans-Serif with Bold Weight:
+You can use a bolder version of your main font for headings to create contrast and hierarchy.
+Here are some additional tips for choosing fonts:
+
+Font Pairing: Choose two fonts that complement each other. A clean sans-serif for body text and a bolder display font for headings will ensure readability and visual interest.
+Legibility: Prioritize fonts that are easy to read on screens, especially for body text.
+Limited Fonts: Stick to 2-3 fonts to maintain a cohesive look and avoid overwhelming visitors.
+Here's an example font combination:
+
+Main Font: Inter (Sans-serif)
+Heading Font: Miami Vice (Display)
+This combination offers a clean and modern base with the Miami Vice font adding a touch of neon flair to the headings.

@@ -1,0 +1,18 @@
+.nf-body {
+    width: 100svw;
+    height: 92.6svh;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #686868;
+    font-size: 3rem;
+    overflow: hidden;
+}
+
+@media (max-width:750px) and (orientation: portrait) {
+    .nf-body {
+        font-size: 1rem;
+    }
+}
